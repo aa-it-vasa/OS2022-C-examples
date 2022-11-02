@@ -10,10 +10,7 @@ int main()
     getchar();
     
     int a = 0;
-    double d = 10.21;
+    float d = 10.21;
     printf("Storleken på a + d:     %lu byte\n", sizeof(a + d));
-    return 0;
-
-
     return 0;
 }
