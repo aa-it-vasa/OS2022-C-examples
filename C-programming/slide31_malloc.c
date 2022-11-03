@@ -28,7 +28,7 @@ int main()
 		printf("Memory successfully allocated using malloc.\n");
 
 		// Get the elements of the array
-		for (i = 0; i < n; ++i) {
+		for (i = 0; i < n+1; ++i) {
 			ptr[i] = i + 1;
 		}
 

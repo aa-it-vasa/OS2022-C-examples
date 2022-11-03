@@ -14,6 +14,7 @@ int main()
                            	   structures and using pointers to them*/
 
     printf("Address of structure: %p\n", &structure);
+    printf("Address of structure: %p\n", ptr);
 
     printf( "%d\n", ptr->x );  	/* The -> acts somewhat like the * when
                                    does when it is used with pointers
